@@ -6,6 +6,7 @@ import { Customer } from './modules/customer/entity/customer.entity';
 import { CustomerModule } from './modules/customer/customer.module';
 import { Otp } from './modules/customer/entity/otp.entity';
 import { CustomerToken } from './modules/customer/entity/customer-token.entity';
+import { SharedModule } from './modules/shared/shared.module';
 
 @Module({
   imports: [
